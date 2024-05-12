@@ -7,3 +7,6 @@ bca
 hi
 namaste salam
 ji
+coer college 
+learning git
+from explorin
