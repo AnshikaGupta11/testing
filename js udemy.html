@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // objects
+        /*var obj={};
+        console.log(obj);
+        console.dir(obj);
+        expect(obj).not.toBeUndefined();*/
+
+        it("can create basic object and assign method on it",function(){
+            var obj={},
+            nameone,nametwo,namethree;
+        obj.sayname=function(first,last){       //bydefault
+            first=first||"ryan";
+            last=last||"michael";
+            return "hello "+first+" "+last;
+        };
+        nameone=obj,sayname();
+        nametwo=obj.sayname('bill');
+        namethree=obj.sayname('john','doe');
+        except[nameone].toEqual("hello ryan michael");
+        except[nametwo].toEqual("hello bill michael");
+        except[namethree].toEqual("hello john doe");
+    });
+    </script>
+</body>
+</html>
