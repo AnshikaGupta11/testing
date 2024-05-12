@@ -10,3 +10,5 @@ ji
 coer college 
 learning git
 from explorin
+on git hub
+for git hub
